@@ -1,12 +1,89 @@
-p {
-    font-family: 'Kaushan Script', cursive;
+* {
+    margin: 0px;
 }
-h1,h3 {
-    font-family: 'Kaushan Script', cursive;
-}
-form {
-    font-family: 'Kaushan Script', cursive;
-}
+
 body {
-    background-image: url("paper.png");
+    background-color: #FFF7F0;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+.home {
+    background-image: url("../img/background.png");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: auto;
+    background-color: #223300;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h3 {
+    font-size: 2rem;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+ 
+.presentation {
+    padding: 15px;
+    display:  flex;
+    flex-direction: row;
+    align-self: center;
+}
+.myimg {
+    display:  flex;
+    align-self: center;
+}
+
+.example {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.end-p {
+    background-color: #223300;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
