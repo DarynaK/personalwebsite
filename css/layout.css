@@ -1,0 +1,24 @@
+@media screen and (max-width: 720px) {
+   main {
+     flex-wrap: wrap;
+    }
+    
+   .home {
+       display: flex;
+       justify-content: center;
+   }
+   
+   .myimg {
+       display:  none;
+   }
+   
+   .example {
+       display: flex;
+       flex-direction: column;
+   }
+   
+   footer {
+        display: flex;
+        flex-direction: column;   
+   }
+}
