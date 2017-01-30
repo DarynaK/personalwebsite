@@ -11,13 +11,33 @@
    .myimg {
        display:  none;
    }
-   
-   .example {
-       display: flex;
-       flex-direction: column;
+   .example_one img {
+      margin-left: 60px;
+      display: flex;
+      justify-content: center;
    }
    
-   footer {
+   .example_one {
+      margin-left: 60px;
+      display: flex;
+      flex-direction: column;
+   }
+   .example_three img {
+      margin-left: 60px;
+      display: flex;
+      justify-content: center;
+   }
+   
+   .example_three {
+      margin-left: 60px;
+      display: flex;
+      flex-direction: column;
+   }
+   .example_two {
+      display: none;
+   }
+   
+   .feedback {
         display: flex;
         flex-direction: column;   
    }

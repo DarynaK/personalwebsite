@@ -69,7 +69,9 @@ h3 {
     align-self: center;
 }
 
-.example {
+.example_one,
+.example_two,
+.example_three {
     margin: 25px;
     display: flex;
     flex-direction: row;
