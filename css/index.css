@@ -51,6 +51,12 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+li a:hover {
+    background-color: #52661F;
+    color: white;
+}
+
 h3 {
     font-size: 2rem;
     padding: 30px;

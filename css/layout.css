@@ -43,23 +43,22 @@
    }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
    main {
       padding: 0;
    }
    header h1 {
-      font-size: 2rem;
+      font-size: 4.5rem;
+      line-height: 0.5;
       margin: 0;
    }
-   nav ur li {
-      display: flex;
-      flex-direction: column;
-      margin: 0 auto;
-      padding: 0;
+   nav ul li a {
+      display: block;
+      text-align: center;
    }
    
    .example_one img {
-      margin: 0;
+      margin: 0 auto;
       display: flex;
       justify-content: center;
    }
