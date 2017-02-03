@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #FFF7F0;
+    background-color: #FFFFFF;
     max-width: 1920px;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -15,10 +15,10 @@ body {
 }
 
 .home {
-    background-image: url("../img/background.png");
+    background-image: url("../img/sun.png");
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,6 +26,7 @@ body {
 header h1 {
     font-size: 4rem;
     margin: 0;
+    color: black;
 }
 
 nav ul {
@@ -36,7 +37,7 @@ nav ul {
     top: 0;
     width: 100%;
     overflow: auto;
-    background-color: #223300;
+    background-color: #223300 ;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -45,9 +46,9 @@ li {
 }
 
 li a {
-    display: flex;
+    display: block;
     color: white;
-    justify-content: center;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -58,8 +59,11 @@ li a:hover {
 }
 
 h3 {
+    background-color: #223300 ;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     font-size: 2rem;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -84,8 +88,11 @@ h3 {
     justify-content: space-around;
 }
 
+.img {
+    border: 10px solid transparent;
+}
+
 .footer {
-    margin-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

@@ -51,15 +51,13 @@
       font-size: 3rem;
       margin: 0;
    }
-   nav ul li a {
+   nav {
       display: block;
       text-align: center;
    }
    
    .example_one img {
       margin: 0 auto;
-      display: flex;
-      justify-content: center;
    }
    
    .example_one {
