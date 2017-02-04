@@ -48,7 +48,7 @@
       padding: 0;
    }
    header h1 {
-      font-size: 3rem;
+      font-size: 2rem;
       margin: 0;
    }
    nav {
@@ -58,6 +58,7 @@
    
    .example_one img {
       margin: 0 auto;
+      padding: 0;
    }
    
    .example_one {
